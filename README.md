@@ -30,7 +30,7 @@ Output: return_matrix.csv - all risk and performance statistics are derived from
 1.2 Statistical inputs
 
 - stats.py - computes core empirical statistics from the return matrix (mean return matrix and covariance matrix)
-Outputs: mean_returns.csv
+Outputs: mean_returns.csv and
          covariance_matrix.csv
 
 1.3 Portfolio construction
@@ -52,7 +52,7 @@ Output: cumulative_returns.csv
 - max_drawdown.py - computes maximum drawdown from cumulative wealth
 Output: max_drawdown.csv - this captures downside risk not visible in volatility alone
 - volatility.py - computes daily volatility and derives annualised volatility
-Outputs: daily_volatility.csv
+Outputs: daily_volatility.csv and
          annual_volatility.csv
 - sharpe.py - computes the Sharpe ratio using mean returns and volatility
 Output: sharpe_ratio.csv
